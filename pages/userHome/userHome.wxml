@@ -1,0 +1,17 @@
+<view class="box">
+    <view class="header">
+        <view class="back" bindtap="onBack">《</view>
+        <view class="title">用户中心</view>
+    </view>
+
+    <view class="main">
+        <cover-image class="user" src="/image/user.png"></cover-image>
+        <view class="about">
+            <view>{{userName}}</view>
+        </view>
+    </view>
+
+    <view class="footer">
+    
+    </view>
+</view>

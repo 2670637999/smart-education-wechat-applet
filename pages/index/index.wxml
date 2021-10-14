@@ -1,0 +1,20 @@
+<view class="box">
+  <view class="header">
+      <cover-image bindtap="ToUserHome" src="/image/user.png" class="user"></cover-image>
+    <view class="title">智慧教育</view>
+  </view>
+  
+  <view class="main">
+
+  <navigator class="item" wx:for="{{ HomeMenuItems }}" url="{{ item.route }}">
+    <view class="item_image">
+      <cover-image src="{{ item.icon }}"></cover-image>
+    </view>
+    <view class="item_content">
+      <view class="item_title">{{ item.title }}</view> 
+      <view class="item_subtitle">{{ item.subtitle }}</view>
+    </view>
+  </navigator>
+
+  </view>
+</view>

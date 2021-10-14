@@ -1,0 +1,13 @@
+<view class="box">
+    <view class="header">
+        <view class="back" bindtap="onBack">《</view>
+        <view class="title">校园活动</view>
+    </view>
+
+    <view class="main">
+    </view>
+
+    <view class="footer">
+    
+    </view>
+</view>

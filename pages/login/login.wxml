@@ -1,0 +1,16 @@
+<view class="box">
+    <view class="header">
+        <view class="back" bindtap="onBack">《</view>
+        <view class="title">登录</view>
+    </view>
+
+    <view class="main">
+        <input type="text" model:value="{{ userName }}" placeholder="请输入用户名"/>
+        <input type="password" model:value="{{ userPwd }}" placeholder="请输入密码"/>
+        <button bindtap="onLogin">登录</button>
+    </view>
+
+    <view class="footer">
+    
+    </view>
+</view>
